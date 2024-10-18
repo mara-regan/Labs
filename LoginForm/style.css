@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto";
+    color: darkgrey;
+}
+
+main {
+    background-color: rgb(231, 104, 115);
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.form {
+    background-color: #F2F2F2;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 6em;
+    text-align: center;
+}
+
+.account {
+    font-weight: 700;
+    padding: 20px;
+}
+
+#username {
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224);
+}
+
+#password {
+    padding: 15px;
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224);
+}
+
+button {
+    margin-top: 30px;
+    background-color: #71c9d1;
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    border-style: none;
+}
+
+::placeholder {
+    color: silver;
+}
+
+.checkbox {
+    margin-top: 20px;
+    float: left;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+input[type="checkbox"] {
+    outline: 1px solid silver;
+    height: 15px;
+    width: 15px;
+}
