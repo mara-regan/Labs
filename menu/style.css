@@ -1,0 +1,81 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    background-color: paleturquoise;
+    color: darkcyan;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.menu-button:hover {
+    background-color: peachpuff;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.menu {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0s 0.3s, height 0.3s ease-in-out;
+    background-color: paleturquoise;
+    color: darkcyan;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 100px;
+    padding: 5px;
+}
+
+.menu.open {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, visibility 0s 0s, height 0.3s ease-in-out;
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    text-align: left;
+    padding: 5px;
+}
+
+.menu ul li a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: peachpuff;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.container {
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+.letters-content {
+    color: darkcyan;
+}
+
+.numbers-content {
+    color: darkcyan;
+}
